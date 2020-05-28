@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<text>
-    Il primo xml con validazione
-    <child> Questo è un figlio </child> <!-- Aggiungo un figlio ad un elemento -->
-    <sibling> Questo è un fratello </sibling> <!-- Aggiungo un fratello ad un elemento -->
-
-</text>
-<!-- 
+<root> <!-- Aggiungo un nodo radice che deve contenere tutti gli altri nodi-->
+    <text>
+        Il primo xml con validazione
+        <child> Questo è un figlio </child> <!-- Aggiungo un figlio ad un elemento -->
+        <sibling> Questo è un fratello </sibling> <!-- Aggiungo un fratello ad un elemento -->
+    </text>
     <text /> 
-    Questo tipo di chiusura dell'elemento text è scritta in modo sbagliato ed inoltre, 
-    anche se fosse scritta in modo esatto, text presenta già una chiusura.
--->
+</root>
