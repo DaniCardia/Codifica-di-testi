@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE TEI SYSTEM "esercizio4.dtd">
+<TEI>
+    <header type="intestazione" lang="az"> Sono  l'intestazione </header>
+    <facsimile source="campo_obbligatorio" ref="id1 id2">Sono facsmile</facsimile>
+    <testo id="id1" type="tipo1">
+        <seg>
+            Primo seg
+        </seg>
+    </testo>
+    <testo id="id2" type="tipo2">
+        <seg>
+            Secondo seg
+        </seg>
+    </testo>
+</TEI>
