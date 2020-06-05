@@ -1,0 +1,30 @@
+<!ELEMENT TEI (teiHeader,text+)>
+<!ELEMENT teiHeader (filedesc)>
+<!ELEMENT filedesc (titleStmt,publicationStmt,sourceDesc)>
+<!ELEMENT titleStmt (title+,respStmt)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT respStmt  (resp,name)>
+<!ELEMENT resp (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT publicationStmt (publisher,date+,availability)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT availability (#PCDATA)>
+<!ELEMENT sourceDesc (bibl)>
+<!ELEMENT bibl (title+,author,publisher,date)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT text (body)>
+<!ELEMENT body (div)>
+<!ELEMENT div (p*)>
+<!ELEMENT p (#PCDATA)>
+
+<!ATTLIST TEI
+    xmlns CDATA #REQUIRED
+>
+
+<!ATTLIST availability
+    status CDATA #REQUIRED
+>
+<!ATTLIST div
+    type CDATA #REQUIRED 
+>
