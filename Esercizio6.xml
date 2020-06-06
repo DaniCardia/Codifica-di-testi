@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE TEI SYSTEM "Esercizio6.dtd">
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <filedesc>
+        <fileDesc>
             <titleStmt>
                 <title>Noi, i ragazzi dello zoo di Berlino: edizione digitale</title>
                 <respStmt>
@@ -13,7 +13,7 @@
             <publicationStmt>
                 <publisher>Pisa</publisher>
                 <date>04-06-2020</date>
-                <availability status="free"></availability>
+                <availability status="free"><p></p></availability>
             </publicationStmt>    
             <sourceDesc><bibl>
                 <title>Noi, i ragazzi dello zoo di Berlino</title>
@@ -21,7 +21,7 @@
                 <publisher>Biblioteca Universale Rizzoli - BUR</publisher>
                 <date>Aprile 2004</date>
                 </bibl></sourceDesc>
-        </filedesc>
+        </fileDesc>
     </teiHeader>
     <text><body>
         <div type="book">
@@ -30,7 +30,7 @@
             <p>Sapevo che presto saremmo andati lontano, in una grande cittù che si chiamava Berlino. La prima a partire con l'aereo fu mia madre, da sola. Voleva occuparsi dell'appartamento. Mia sorella piccola, io e mio padre arrivammo una settimana dopo. Per noi bambine era il primo viaggio in aereo. Tutto era immensamente emozionante.</p>
             <p>I miei genitore ci avevano raccontato storie meravigliose del gigantesco appartamento con sei grandi stanze nel quale avremmo abitato. E loro volevano guadagnaree molti soldi. Mia madre diceva che avremmo avuto una grande stanza tutta per noi. Volevano comprare bei mobili. Lei allora ci spiegò con tutti i particolari come sarebbe stata la nostra stanza. Questo lo ricordo ancora perché da bambina non ho mai smesso di immaginarmela, questa stanza. Man mano che crescevo diventava nella mia fantasia sempre più bella.</p>
             <p>E neanche ho dimenticato come era l'appartamento nel quale eravamo arrivati. Forse perché come prima cosa ne ebbi un orrore tremendo. Era così grande e vuoto che avevo paura di perdermi. Quando si parlava ad alta voce rimbombava terribilmente.</p>
-            <p>Soltanto in tre stanze c'erano un paio di mobili. Nella stanza dei bambini c'erano due letti e un vecchio mobile da cucina con i nostri giochi. Nella seconda stanza c'era un letto per i miei genitori e nella stanza più grande un vecchio divano e un paio di sedie. Così vivevamo a Kreuzbeg, nella Paul-Lincke-Ufer.</p>
+            <p>Soltanto in tre stanze c'erano un paio di mobili. Nella stanza dei bambini c'erano due letti e un vecchio mobile da cucina con i nostri giochi. Nella seconda stanza c'era un letto per i miei genitori e nella stanza più grande un vecchio divano e un paio di sedie. Così vivevamo a <term xml:id="Kreuzbeg" rend='italic'> Kreuzbeg </term> <gloss target="#Kreuzbeg"> Vecchio quartiere popolare di Berlino-ovest, a ridosso del <![CDATA[<<muro>>]]>, oggi abitatoin prevalenza da immigrati.</gloss>, nella Paul-Lincke-Ufer.</p>
             <p>Dopo un paio di giorni mi fidai ad adnare da sola per strada con la bicicletta, dato che ci giocavano dei bambini che erano un po' più grandi di me. Al paese i più grandi avevano sempre giocato con i piccoli, e ci sorvegliavano anche. I bambini del nostro stabile mi dissero subito: <![CDATA[<<Cosa vuoi tu qui?>>]]>. Poi mi presero la bicicletta. Quando la riebbi indietro aveva una ruota a terra e un parafango piegato.</p>
             <p>Mio padre mi picchiò perché la bicicletta era rotta. Da allora andai in bicicletta solo per le nostre sei stanze.</p>
             <p>Tre stanze dovevano in realtà diventare l'ufficio. I miei genitori volevano aprire un'agenzia matrimoniale. Ma le scrivanie e le poltrone di cui parlavano non arrivarono mai. Il mobile da cucina rimase nella stanza dei bambini.</p>
