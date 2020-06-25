@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Vincenzo Bellini a Francesco Florimo. Minuta di lettera. Parigi, 1° giugno 1835.
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text type="minuta di lettera" xml:id="LL1.30" subtype="manuscript" n="LL1.30">
+        <body xml:lang="it">
+            <div type="fronte-recto">
+                <pb n="1" xml:id="LL1.30_fol_1fr"/>
+                <div type="opener" n="o_01">
+                    <dateline n="ab_01">
+                    <s type="sentence" n="s_01">
+                            <lb xml:id="LL1.30_lb_1fr_01" n="1" facs="#LL1.30_line_1fr_01"/>
+                            <date when="">1: Giugno - 35</date> 
+                            <address>
+                                <addrLine>
+                                 <placeName>N. 19:bis rampe</placeName>
+                                </addrLine>
+                                <lb xml:id="LL1.30_lb_1fr_02" n="2" facs="#LL1.30_line_1fr_02"/>
+                                <addrLine>
+                                 <placeName>de Neuilly</placeName> à 
+                                    <hi rend="underline align(right)"> 
+                                        <placeName>Puteaux</placeName>
+                                    </hi>
+                                </addrLine>
+                                <lb xml:id="LL1.30_lb_1fr_03a" n="3" facs="#LL1.30_line_1fr_03"/>
+                                <addrLine>
+                                    <hi rend="underline align(right)">près de 
+                                     <placeName>Paris</placeName>
+                                    </hi>
+                                </addrLine>
+                            </address>
+                    </s>
+                    </dateline>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
