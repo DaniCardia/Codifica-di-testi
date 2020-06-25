@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+      <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Vincenzo Bellini a Francesco Florimo. Minuta di lettera. Parigi, 1° giugno 1835.
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <p>
+                </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="LL1.30_folio_1fr">			
+            <graphic url='LL1.30_0001.jpg' width='1645px' height='2475px' />
+            <zone ulx="90" uly="60" lrx="1567" lry="161" rendition="Line" xml:id="LL1.30_line_1fr_01"/>
+            <zone ulx="90" uly="145" lrx="1610" lry="285" rendition="Line" xml:id="LL1.30_line_1fr_02"/>
+            <zone ulx="90" uly="242" lrx="1610" lry="365" rendition="Line" xml:id="LL1.30_line_1fr_03"/>
+            <zone ulx="90" uly="360" lrx="1610" lry="460" rendition="Line" xml:id="LL1.30_line_1fr_04"/>
+            <zone ulx="90" uly="435" lrx="1610" lry="540" rendition="Line" xml:id="LL1.30_line_1fr_05"/>
+            <zone ulx="90" uly="530" lrx="1610" lry="630" rendition="Line" xml:id="LL1.30_line_1fr_06"/>
+            <zone ulx="90" uly="620" lrx="1610" lry="740" rendition="Line" xml:id="LL1.30_line_1fr_07"/>
+            <zone ulx="90" uly="715" lrx="1610" lry="840" rendition="Line" xml:id="LL1.30_line_1fr_08"/>
+        </surface>
+    </facsimile>
+    <text type="minuta di lettera" xml:id="LL1.30" subtype="manuscript" n="LL1.30">
+        <body xml:lang="it">
+            <div type="fronte-recto">
+                <pb n="1" xml:id="LL1.30_fol_1fr" facs="#LL1.30_folio_1fr"/>
+                <div type="opener" n="o_01">
+                    <dateline n="ab_01">
+                    <s type="sentence" n="s_01">
+                            <lb xml:id="LL1.30_lb_1fr_01" n="1" facs="#LL1.30_line_1fr_01"/>
+                            <date when="">1: Giugno - 35</date> 
+                            <address>
+                                <addrLine>
+                                 <placeName>N. 19:bis rampe</placeName>
+                                </addrLine>
+                                <lb xml:id="LL1.30_lb_1fr_02" n="2" facs="#LL1.30_line_1fr_02"/>
+                                <addrLine>
+                                 <placeName>de Neuilly</placeName> à 
+                                    <hi rend="underline align(right)"> 
+                                        <placeName>Puteaux</placeName>
+                                    </hi>
+                                </addrLine>
+                                <lb xml:id="LL1.30_lb_1fr_03a" n="3" facs="#LL1.30_line_1fr_03"/>
+                                <addrLine>
+                                    <hi rend="underline align(right)">près de 
+                                     <placeName>Paris</placeName>
+                                    </hi>
+                                </addrLine>
+                            </address>
+                    </s>
+                    </dateline>
+                </div>
+
+                <div type="letter-body" n="t_01">
+                    <salute n="ab_02">
+                        <s type="sentence" n="s_02">
+                           <lb xml:id="LL1.30_lb_1fr_03s" n="3" facs="#LL1.30_line_1fr_03"/> 
+                           <hi rend="align(left)">Mio caro
+                                <persName>Florimo</persName>
+                           </hi>
+                        </s>
+                    </salute>
+                    <ab type="parag" rend="first_line_indented" n="ab_03">
+                        <s type="sentence" n="s_03">
+                            <lb xml:id="LL1.30_lb_1fr_04" n="4" facs="#LL1.30_line_1fr_04"/>
+                            Una vera invenzione ti ha cagionato
+                            <lb xml:id="LL1.30_lb_1fr_05" n="5" facs="#LL1.30_line_1fr_05"/>
+                            tanto dolore per lo supposto duello, e mia
+                            <lb xml:id="LL1.30_lb_1fr_06" n="6" facs="#LL1.30_line_1fr_06"/>
+                            morte. Tu mi conosci bene, e sai che un 
+                            <lb xml:id="LL1.30_lb_1fr_07" n="7" facs="#LL1.30_line_1fr_07"/>
+                            solo punto d’onore mi farebbe andare sul
+                            <lb xml:id="LL1.30_lb_1fr_08" n="8" facs="#LL1.30_line_1fr_08"/>
+                            terreno, o una disgrazia fatale    
+                        </s>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
